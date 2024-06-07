@@ -1,0 +1,33 @@
+.navbar{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1{
+    color: white;
+    font-family: "Sedan SC", serif;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    float: left;
+}
+.navbar ul li a{
+    color: grey;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Sedan SC", serif;
+    text-align: left;
+
+}
+.navbar ul li:hover a{
+    color:white;
+}

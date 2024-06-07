@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact1.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fuggles&family=Merienda:wght@300..900&family=Sedan+SC&display=swap" rel="stylesheet">
+<body>
+    <div class="navbar">
+        <h1>Warriors Silambam</h1>
+        <ul>
+            <li><a href="index.html">Home |</a></li>
+            <li><a href="about.html">About Us |</a></li>
+            <li><a href="cls.html">Classes & Schedules |</a></li>
+            <li><a href="gallery.html">Gallery |</a></li>
+            <li><a href="testimonial.html">Testimonial |</a></li>
+            <li><a href="contact.html">Contact Us |</a></li>
+        </ul>
+    </div>
+    
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Feel Free to reach out us with any questions or concerns.Our team is here to assist you and ensure you have the best experience possible.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                     <div class="icon"><i class="material-symbols-outlined">
+                        <img src="images/location.png" width="25" height="25">
+                    </i>
+                    </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>136,Nehru Street,Ramnagar,<br>Coimbatore,Tamilnadu-641 009.</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="material-symbols-outlined">
+                        <img src="images/call.png"  width="25" height="25">
+                        </i>
+                    </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91 7777777777</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i  class="material-symbols-outlined">
+                        <img src="images/mail.png"  width="25" height="25">
+                      </i>
+                    </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>warriorssilambam@gmail.com</p>
+                        </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="register.py" method="post">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Full Name</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <textarea  name="message" required="required"></textarea>
+                        <span>Type Your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+ </body>
+</html>

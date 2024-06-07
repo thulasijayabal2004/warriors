@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;  }
+
+.header{
+   padding: 20px 0;
+   background: #f1f1f1;
+   color: #434343;
+   text-align: center;
+}
+h1,h2{
+   font-family: "Playfair Display", serif;
+}
+img{
+    margin-bottom: 20px;
+}
+p,h3{
+   font-family: "Merriweather", serif;
+}
